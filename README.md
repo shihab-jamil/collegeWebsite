@@ -1,6 +1,7 @@
 This is a full college Website Project done with the following languages
 
 For frontend i use ---- HTML5, CSS3, JavaScript, Bootstrap 4, CkEditor, Fontawesome
+
 For backend I use ----- PHP and MySql
 
 installation process
