@@ -1,0 +1,293 @@
+@font-face {
+  font-family: myBangla;
+  src: url("../fonts/BenSenHandwriting.ttf");
+}
+
+@font-face {
+  font-family: regularBangla;
+  src: url("../fonts/Hind_Siliguri-Regular_GhOgZt6.ttf");
+}
+
+.mainBody {
+  font-family: regularBangla;
+}
+
+.dropdown:hover > .dropdown-menu {
+  display: block;
+}
+
+.dropdown > .dropdown-toggle:active {
+  /*Without this, clicking will make it sticky*/
+  pointer-events: none;
+  cursor: pointer;
+}
+
+.dropdown-item:hover {
+  cursor: pointer;
+  background-color: cadetblue;
+  color: white;
+}
+
+#carousel-example-generic {
+  height: 480px;
+  width: 848px;
+}
+
+.carouselTitle {
+  font-size: 64px;
+  font-weight: 100;
+  color: white;
+  text-shadow: 0 1px 2px #000;
+  position: absolute;
+  bottom: 60px;
+  left: 80px;
+}
+
+.newsEvents {
+  margin-right: 2px;
+}
+
+.newsEventsTable tr {
+  height: 80px;
+  border-bottom: 1px solid black;
+}
+
+.newsEventsBody,
+.noticesBody {
+  height: 500px;
+  overflow-y: scroll;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+.newsEventsBody,
+.noticesBody,
+h2,
+label {
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+}
+
+.newsEventItem,
+.noticeItems {
+  background-color: grey;
+}
+
+.newsEventItem:hover,
+.noticeItems:hover {
+  background-color: cadetblue;
+}
+.newsEventsBody:hover,
+.noticesBody:hover {
+  background-color: tomato;
+}
+
+.deptCarousel {
+  border-top: 2px solid tomato;
+  border-bottom: 2px solid tomato;
+}
+
+.scrollbar-primary::-webkit-scrollbar {
+  width: 12px;
+  background-color: #f5f5f5;
+}
+
+.scrollbar-primary::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+  background-color: #4285f4;
+}
+
+.scrollbar-primary {
+  scrollbar-color: #4285f4 #f5f5f5;
+}
+
+.nameQoutesVP h3,
+.nameQoutesVP h6 {
+  text-align: right;
+  text-justify: newspaper;
+}
+
+td {
+  padding: 10px;
+}
+
+.marquee {
+  font-family: regularBangla;
+  font-size: 20px;
+  margin-top: 7px;
+  background-color: #ededed;
+  color: red;
+  font-size: larger;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.address p {
+  color: #8c8b8b;
+}
+
+.links li,
+.links a,
+.panels li,
+.panels a {
+  font-size: 20px;
+  list-style-type: none;
+  text-decoration: underline;
+  color: #8c8b8b;
+  margin-bottom: 5px;
+}
+
+.copyrightText {
+  font-size: 20px;
+  list-style-type: none;
+  color: #8c8b8b;
+  margin-bottom: 5px;
+}
+
+.logo {
+  background: linear-gradient(to right, #0099ff 0%, #ffffff 170%);
+  /* background-image: radial-gradient( circle farthest-corner at 22.4% 21.7%,  rgba(4,189,228,1) 0%, rgba(2,83,185,1) 100.2% ); */
+}
+
+.main {
+  background: #ffffff;
+  border-radius: 2px;
+  box-shadow: 0px 0px 4px 11px rgba(0, 0, 0, 0.1);
+}
+
+.details label {
+  font-family: myBangla;
+  font-size: 48px;
+}
+
+.details h3 {
+  font-family: myBangla;
+}
+
+.details h2 {
+  margin-top: -20px;
+  font-family: myBangla;
+}
+
+.navMod {
+  background: linear-gradient(to right, blueviolet 5%, #ffffff 170%);
+}
+.navbar-nav li a {
+  font-weight: bold;
+  transition: 0.5s ease;
+}
+
+.navbar-nav li a:hover {
+  background-color: brown;
+}
+
+.studentCorner {
+  width: 100%;
+  border: 1px solid#808080;
+  background: #ececec;
+  padding-bottom: 30px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+
+.innerItem ul li {
+  list-style-type: none;
+}
+.innerItem ul li a {
+  color: black;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: #fa2b2b;
+  color: #fff;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.noticeBox {
+  width: 100%;
+  height: 450px;
+  overflow: hidden;
+  background: #ebebeb;
+  padding-bottom: 10px;
+  padding-right: 5px;
+  margin-bottom: 10px;
+}
+
+.noticeBox ul {
+  overflow: hidden;
+  margin-top: 10px;
+  padding-right: 5px;
+  padding-left: 12px;
+}
+
+.noticeBox ul li {
+  padding-top: 8px !important;
+  padding-bottom: 8px !important;
+  list-style: none;
+  cursor: pointer;
+}
+
+.events ul li a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+.importantLinks {
+  width: 100%;
+
+  overflow: hidden;
+  background: #ebebeb;
+  padding-bottom: 10px;
+  padding-right: 5px;
+  margin-bottom: 10px;
+}
+
+.events {
+  overflow-y: scroll;
+}
+
+.pathBox {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.pathBox ul li {
+  list-style-type: none;
+  margin-bottom: 5px;
+}
+
+.pathBox ul li a {
+  color: black;
+  text-decoration: none;
+  margin-bottom: 5px;
+}
+
+.facts li {
+  margin-bottom: 10px;
+}
+
+.card {
+  cursor: pointer;
+}
+
+.verticalText {
+  writing-mode: vertical-lr;
+  -ms-writing-mode: tb-rl;
+  transform: rotate(180deg);
+}
+
+.table-striped {
+  font-size: 12px;
+}
+
