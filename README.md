@@ -11,4 +11,8 @@ installation process
 4. Then goto PhpMyAdmin Panel and Import the isrcr.sql file from SQL folder
 5. finally goto this link "localhost/isrc/index.php"
 
+For admin Panel
+email = i@gmail.com
+password = 1212
+
 You are ready to go
